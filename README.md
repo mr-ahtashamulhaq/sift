@@ -9,7 +9,7 @@ Sift scans live job listings across **5 platforms**, scores every opportunity **
 ---
 
 [![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift.vercel.app?demo=true)
-[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-api.onrender.com/docs)
+[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-backend-production.up.railway.app/docs)
 [![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat-square)](LICENSE)
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
@@ -85,7 +85,7 @@ After every completed scan, results are stored into a per-user knowledge graph. 
 | 🤖 AI Scoring & Chat | Groq — Llama 3.3 70B Versatile | Win probability scoring, streaming chat |
 | 🧩 Memory | Cognee (knowledge graph) | Per-user and per-client intelligence |
 | 📁 Portfolio | GitHub API + direct httpx scraping | Portfolio context for scoring |
-| 🚀 Deployment | Vercel (frontend) + Render (backend) | Production hosting |
+| 🚀 Deployment | Vercel (frontend) + Railway (backend) | Production hosting |
 
 ---
 
@@ -146,7 +146,7 @@ Sift/
 
 ### Prerequisites
 
-> **Ready to deploy?** Check out the [Full-Stack Deployment Guide](Deployment.md) for step-by-step instructions on hosting Sift for free on Vercel and Render.
+> **Ready to deploy?** Check out the [Full-Stack Deployment Guide](Deployment.md) for step-by-step instructions on hosting Sift for free on Vercel and Railway.
 
 | Requirement | Notes |
 |---|---|
@@ -283,6 +283,6 @@ npm run dev
 
 Made with ❤️ by the **Sift Team**
 
-[🚀 Live Demo](https://sift.vercel.app?demo=true) · [📖 API Docs](https://sift-api.onrender.com/docs)
+[🚀 Live Demo](https://sift.vercel.app?demo=true) · [📖 API Docs](https://sift-backend-production.up.railway.app/docs)
 
 </div>

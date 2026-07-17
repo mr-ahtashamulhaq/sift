@@ -8,19 +8,18 @@ Sift scans live job listings across **5 platforms**, scores every opportunity **
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift-green.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift-green.vercel.app?demo=true)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift.vercel.app?demo=true)
 
-[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-app.up.railway.app/docs)
+[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-backend-production.up.railway.app/docs)
+[![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat-square)](LICENSE)
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)]
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
+[![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-f97316?style=flat-square)](https://groq.com)
+[![Serper](https://img.shields.io/badge/Serper-Google%20SERP%20API-3b82f6?style=flat-square)](https://serper.dev)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20+%20Auth-3ecf8e?style=flat-square&logo=supabase)](https://supabase.com)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python)](https://python.org)
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?style=flat-square&logo=fastapi)]
-
-[![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-f97316?style=flat-square)]
-
-[![Serper](https://img.shields.io/badge/Serper-Google%20SERP%20API-3b82f6?style=flat-square)]
-
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20+%20Auth-3ecf8e?style=flat-square&logo=supabase)]
 </div>
 
 ---
@@ -29,7 +28,7 @@ Sift scans live job listings across **5 platforms**, scores every opportunity **
 
 Freelancers waste hours writing proposals for jobs they won't win , too many competing bids, clients who never hire, budgets that don't match their rate. The data that would change those odds *exists*: bid counts, client spend history, hire rates, dispute records. It's hidden behind bot protection, scattered across five platforms, and invisible to anyone without a pipeline to pull it.
 
-> **Sift fixes this.** It gives you the same intelligence a platform insider would have - in under 30 seconds.
+> **Sift fixes this.** It gives you the same intelligence a platform insider would have , in under 30 seconds.
 
 ---
 
@@ -285,5 +284,6 @@ npm run dev
 
 Made with ❤️ by the **Sift Team**
 
-[🚀 Live Demo](https://sift-green.vercel.app?demo=true)
+[🚀 Live Demo](https://sift.vercel.app?demo=true) · [📖 API Docs](https://sift-backend-production.up.railway.app/docs)
+
 </div>

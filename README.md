@@ -4,30 +4,32 @@
 
 **Stop bidding blind. Start winning.**
 
-Sift scans live job listings across **5 platforms**, scores every opportunity **0–100** against your specific profile, and tells you exactly which jobs are worth bidding on — before you write a single word.
+Sift scans live job listings across **5 platforms**, scores every opportunity **0–100** against your specific profile, and tells you exactly which jobs are worth bidding on , before you write a single word.
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift.vercel.app?demo=true)
-[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-backend-production.up.railway.app/docs)
-[![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat-square)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift-green.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift-green.vercel.app?demo=true)
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
-[![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-f97316?style=flat-square)](https://groq.com)
-[![Serper](https://img.shields.io/badge/Serper-Google%20SERP%20API-3b82f6?style=flat-square)](https://serper.dev)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20+%20Auth-3ecf8e?style=flat-square&logo=supabase)](https://supabase.com)
-[![Python](https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python)](https://python.org)
+[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-app.up.railway.app/docs)
 
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)]
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?style=flat-square&logo=fastapi)]
+
+[![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-f97316?style=flat-square)]
+
+[![Serper](https://img.shields.io/badge/Serper-Google%20SERP%20API-3b82f6?style=flat-square)]
+
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL%20+%20Auth-3ecf8e?style=flat-square&logo=supabase)]
 </div>
 
 ---
 
 ## 🚨 The Problem
 
-Freelancers waste hours writing proposals for jobs they won't win — too many competing bids, clients who never hire, budgets that don't match their rate. The data that would change those odds *exists*: bid counts, client spend history, hire rates, dispute records. It's hidden behind bot protection, scattered across five platforms, and invisible to anyone without a pipeline to pull it.
+Freelancers waste hours writing proposals for jobs they won't win , too many competing bids, clients who never hire, budgets that don't match their rate. The data that would change those odds *exists*: bid counts, client spend history, hire rates, dispute records. It's hidden behind bot protection, scattered across five platforms, and invisible to anyone without a pipeline to pull it.
 
-> **Sift fixes this.** It gives you the same intelligence a platform insider would have — in under 30 seconds.
+> **Sift fixes this.** It gives you the same intelligence a platform insider would have - in under 30 seconds.
 
 ---
 
@@ -35,15 +37,15 @@ Freelancers waste hours writing proposals for jobs they won't win — too many c
 
 | Feature | Description |
 |---|---|
-| 🎯 **Personalised scoring** | Every listing scored 0–100 against your skill levels, niche, and target rate — not a generic market score |
-| 🧠 **Skill proficiency** | Set your level per skill (Beginner / Competent / Expert) — the score weights skill depth against what each listing requires |
-| 🔎 **Niche matching** | Describe your specialisation in one line — proposal angles are generated to reflect your specific domain |
-| 📁 **Portfolio enrichment** | Link your GitHub or portfolio — Sift scrapes it and the AI references your actual work in scoring |
+| 🎯 **Personalised scoring** | Every listing scored 0–100 against your skill levels, niche, and target rate , not a generic market score |
+| 🧠 **Skill proficiency** | Set your level per skill (Beginner / Competent / Expert) , the score weights skill depth against what each listing requires |
+| 🔎 **Niche matching** | Describe your specialisation in one line , proposal angles are generated to reflect your specific domain |
+| 📁 **Portfolio enrichment** | Link your GitHub or portfolio , Sift scrapes it and the AI references your actual work in scoring |
 | 🌐 **Live SERP scan** | Queries all five platforms simultaneously: Upwork, Freelancer, Guru, PeoplePerHour, Toptal |
 | 👤 **Client intelligence** | Reads client history behind bot protection: total spend, hire rate, reviews, dispute record |
 | ⚡ **Sift Score** | GO / RISKY / SKIP verdict with specific data-backed reasons and red flags |
 | ✍️ **Proposal angle** | A literal first sentence for your proposal, built from the listing, client history, and your background |
-| 💬 **AI Chat** | Ask anything about an opportunity — the AI has full context and answers with the actual data |
+| 💬 **AI Chat** | Ask anything about an opportunity , the AI has full context and answers with the actual data |
 | 🧩 **Cognee memory** | Every scan builds a knowledge graph. Future scans use prior client intelligence to sharpen scores |
 | 🕘 **Scan history** | All scans saved to your account with full results |
 
@@ -51,7 +53,7 @@ Freelancers waste hours writing proposals for jobs they won't win — too many c
 
 ## 🛠️ How the Technologies Are Used
 
-### 🌐 Serper.dev — the data layer
+### 🌐 Serper.dev , the data layer
 
 | Tool | How it is used |
 |---|---|
@@ -59,16 +61,16 @@ Freelancers waste hours writing proposals for jobs they won't win — too many c
 | **Direct scraping** | Structured extraction of job details: bid counts, budgets, required skills, post dates |
 | **Profile fetching** | Reads client profiles (spend, hire rate, disputes) using browser-like HTTP requests |
 
-### 🤖 Groq + Llama 3.3 70B — the AI engine
+### 🤖 Groq + Llama 3.3 70B , the AI engine
 
-Every listing is scored by **Llama 3.3 70B** via Groq's ultra-fast inference, using live scraped data, the user's skill profile, and Cognee memory context. The model writes the verdict, reasons, red flags, and proposal angle — all grounded in real numbers.
+Every listing is scored by **Llama 3.3 70B** via Groq's ultra-fast inference, using live scraped data, the user's skill profile, and Cognee memory context. The model writes the verdict, reasons, red flags, and proposal angle , all grounded in real numbers.
 
 Groq powers:
-- **AI Scoring** — win probability + verdict (GO / RISKY / SKIP) per listing
-- **AI Chat** — streams real-time answers about any opportunity via SSE
-- **Project Suggestions** — personalized portfolio recommendations
+- **AI Scoring** , win probability + verdict (GO / RISKY / SKIP) per listing
+- **AI Chat** , streams real-time answers about any opportunity via SSE
+- **Project Suggestions** , personalized portfolio recommendations
 
-### 🧩 Cognee — the memory layer
+### 🧩 Cognee , the memory layer
 
 After every completed scan, results are stored into a per-user knowledge graph. On the next scan, Cognee queries that graph for prior client intelligence and patterns from the user's own history. The product gets smarter with each use.
 
@@ -82,7 +84,7 @@ After every completed scan, results are stored into a per-user knowledge graph. 
 | ⚙️ Backend | FastAPI, Python 3.11 | REST API, background tasks |
 | 🗄️ Database & Auth | Supabase (PostgreSQL + RLS) | User accounts, scan history, opportunities |
 | 🌐 Scraping | Serper.dev SERP + direct httpx scraping | Live job data extraction |
-| 🤖 AI Scoring & Chat | Groq — Llama 3.3 70B Versatile | Win probability scoring, streaming chat |
+| 🤖 AI Scoring & Chat | Groq , Llama 3.3 70B Versatile | Win probability scoring, streaming chat |
 | 🧩 Memory | Cognee (knowledge graph) | Per-user and per-client intelligence |
 | 📁 Portfolio | GitHub API + direct httpx scraping | Portfolio context for scoring |
 | 🚀 Deployment | Vercel (frontend) + Railway (backend) | Production hosting |
@@ -100,7 +102,7 @@ Sift/
 │   │   ├── scraper.py       # Direct job listing scraper
 │   │   ├── unlocker.py      # Direct client profile scraper
 │   │   ├── portfolio.py     # GitHub API + direct portfolio scraping
-│   │   └── mcp_client.py    # (legacy stub — no longer used)
+│   │   └── mcp_client.py    # (legacy stub , no longer used)
 │   ├── ai/
 │   │   ├── scorer.py        # Groq + Llama 3.3 70B scoring
 │   │   └── prompts.py       # Prompt templates (skill levels, niche, memory)
@@ -154,7 +156,7 @@ Sift/
 | 🟢 Node.js 18+ | Frontend runtime |
 | 🗄️ [Supabase](https://supabase.com) project | Free tier works fine |
 | 🤖 [Groq](https://console.groq.com) API key | Free tier available |
-| 🌐 [Serper.dev](https://serper.dev) API key | 2,500 free credits — no credit card needed |
+| 🌐 [Serper.dev](https://serper.dev) API key | 2,500 free credits , no credit card needed |
 
 ---
 
@@ -178,10 +180,10 @@ pip install -r requirements.txt
 Create `backend/.env` (copy from `.env.example`):
 
 ```env
-# Serper.dev — Google SERP API (free, get key at https://serper.dev)
+# Serper.dev , Google SERP API (free, get key at https://serper.dev)
 SERPER_API_KEY=your_serper_api_key_here
 
-# Groq — get your key at console.groq.com (free tier available)
+# Groq , get your key at console.groq.com (free tier available)
 GROQ_API_KEY=gsk_...
 
 # Supabase
@@ -233,11 +235,11 @@ npm run dev
 
 | Method | Endpoint | Auth | Description |
 |---|---|---|---|
-| `GET` | `/health` | — | Service health check |
-| `POST` | `/auth/register` | — | Create account |
-| `POST` | `/auth/login` | — | Sign in |
-| `POST` | `/auth/forgot-password` | — | Send password reset |
-| `POST` | `/auth/reset-password` | — | Set new password |
+| `GET` | `/health` | , | Service health check |
+| `POST` | `/auth/register` | , | Create account |
+| `POST` | `/auth/login` | , | Sign in |
+| `POST` | `/auth/forgot-password` | , | Send password reset |
+| `POST` | `/auth/reset-password` | , | Set new password |
 | `GET` | `/users/me` | ✅ JWT | Get profile |
 | `PUT` | `/users/me` | ✅ JWT | Update profile (skills, rate, GitHub URL, portfolio URL) |
 | `POST` | `/scan` | ✅ JWT | Start scan (skills with levels, niche, rate, portfolio URLs) |
@@ -255,11 +257,11 @@ npm run dev
 
 | Variable | Required | Description |
 |---|---|---|
-| `SERPER_API_KEY` | ✅ Yes | Serper.dev API key — powers live SERP search |
-| `GROQ_API_KEY` | ✅ Yes | Groq API key — powers AI scoring + chat (Llama 3.3 70B) |
+| `SERPER_API_KEY` | ✅ Yes | Serper.dev API key , powers live SERP search |
+| `GROQ_API_KEY` | ✅ Yes | Groq API key , powers AI scoring + chat (Llama 3.3 70B) |
 | `SUPABASE_URL` | ✅ Yes | Supabase project URL |
 | `SUPABASE_SERVICE_KEY` | ✅ Yes | Supabase service role key |
-| `AIML_API_KEY` | ⚪ Optional | AI/ML API key — enables Cognee knowledge graph memory |
+| `AIML_API_KEY` | ⚪ Optional | AI/ML API key , enables Cognee knowledge graph memory |
 | `CORS_ORIGINS` | ⚪ Optional | Comma-separated allowed origins (default: `http://localhost:3000`) |
 | `PORT` | ⚪ Optional | Server port (default: `8000`) |
 
@@ -275,7 +277,7 @@ npm run dev
 
 ## 📄 License
 
-[MIT](LICENSE) — free to use, fork, and build on.
+[MIT](LICENSE) , free to use, fork, and build on.
 
 ---
 
@@ -283,6 +285,5 @@ npm run dev
 
 Made with ❤️ by the **Sift Team**
 
-[🚀 Live Demo](https://sift.vercel.app?demo=true) · [📖 API Docs](https://sift-backend-production.up.railway.app/docs)
-
+[🚀 Live Demo](https://sift-green.vercel.app?demo=true)
 </div>

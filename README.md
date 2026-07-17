@@ -8,9 +8,9 @@ Sift scans live job listings across **5 platforms**, scores every opportunity **
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift.vercel.app?demo=true)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-sift--green.vercel.app-10b981?style=flat-square&logo=vercel)](https://sift-green.vercel.app?demo=true)
 
-[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-backend-production.up.railway.app/docs)
+[![API Docs](https://img.shields.io/badge/📖%20API%20Docs-Swagger-f59e0b?style=flat-square)](https://sift-app.up.railway.app/docs)
 [![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat-square)](LICENSE)
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
@@ -190,7 +190,7 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_SERVICE_KEY=eyJ...
 
 # App
-CORS_ORIGINS=http://localhost:3000,https://sift.vercel.app
+CORS_ORIGINS=http://localhost:3000,https://sift-green.vercel.app
 PORT=8000
 ```
 
@@ -284,6 +284,6 @@ npm run dev
 
 Made with ❤️ by the **Sift Team**
 
-[🚀 Live Demo](https://sift.vercel.app?demo=true) · [📖 API Docs](https://sift-backend-production.up.railway.app/docs)
+[🚀 Live Demo](https://sift-green.vercel.app?demo=true) · [📖 API Docs](https://sift-app.up.railway.app/docs)
 
 </div>

@@ -24,6 +24,12 @@ Sift scans live job listings across **5 platforms**, scores every opportunity **
 
 ---
 
+## 🎥 Watch the Demo
+
+[![Sift Demo Video](https://img.youtube.com/vi/t47Hi611QWo/maxresdefault.jpg)](https://youtu.be/t47Hi611QWo?si=vso63d6LkoVG7lqk)
+
+---
+
 ## 🚨 The Problem
 
 Freelancers waste hours writing proposals for jobs they won't win , too many competing bids, clients who never hire, budgets that don't match their rate. The data that would change those odds *exists*: bid counts, client spend history, hire rates, dispute records. It's hidden behind bot protection, scattered across five platforms, and invisible to anyone without a pipeline to pull it.
